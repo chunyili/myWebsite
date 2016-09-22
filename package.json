@@ -2,7 +2,7 @@
   "name": "myWebsite",
   "private": true,
   "scripts": {
-    "postinstall": "bower install && grunt build --force",
+    "postinstall": "bower install",
     "start": "node server.js"
   },
   "engines": {
