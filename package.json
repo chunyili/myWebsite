@@ -2,9 +2,11 @@
   "name": "mywebsite",
   "private": true,
   "scripts": {
+    "postinstall": "bower install && grunt build",
     "start": "node server.js"
   },
   "devDependencies": {
+    "bower": "1.7.9",
     "autoprefixer-core": "^5.2.1",
     "express": "^4.13.4",
     "grunt": "^0.4.5",
